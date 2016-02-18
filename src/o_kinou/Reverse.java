@@ -29,7 +29,7 @@ public class Reverse {
 		// ay.add(-1);
 		// ax.add(-1);
 		// }
-		int flag = 0, count = 0, p1 = 0, p2 = 0;
+		int flag = 0, p1 = 0, p2 = 0;
 
 		switch (z[Set.gy][Set.gx]) {// 置いた駒は何色？
 
@@ -147,7 +147,6 @@ public class Reverse {
 		}
 
 		// ターンエンド！
-		System.out.println("ターンエンド！");
 		return z;
 	}
 
