@@ -8,11 +8,10 @@ import Auto_kinou.Auto_set;
 public class Auto_main_moto {
 	public int y;
 	public int x;
-	public int cy;
-	public int cx;
+	public static int cy;
+	public static int cx;
 	public int player;
-	protected int countF = Integer.MAX_VALUE, countN = 0, ScountF = Integer.MAX_VALUE, ScountN = 0,
-			F1 = Integer.MAX_VALUE, N1, F2 = Integer.MAX_VALUE, N2;
+	protected int countN = 0,  ScountN = 0,N1, N2,a = 0,b = 0;
 	Auto_set AS = new Auto_set();
 	Auto_reverse AR = new Auto_reverse();
 	int[][] o_sub = new int[8][8];

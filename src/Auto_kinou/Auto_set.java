@@ -17,9 +17,4 @@ public class Auto_set {
 		}
 		return AR.reverse(s,y,x);
 	}
-
-	public int[][] Pset(int[][] s,int y,int x,int color){
-		s[y][x] = color;
-		return s;
-	}
 }

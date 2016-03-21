@@ -21,9 +21,9 @@ public class Set {
 			int y = 0;
 			try {
 				String buf = br.readLine(); // readLine()でSystem.inしたものを
-				y = Integer.parseInt(buf); // 読み込んでbufに入れてparseIntで
-			} 
-			catch (IOException e) { // intに変換している
+				y = Integer.parseInt(buf);  // 読み込んでbufに入れてparseIntで
+			}                               // intに変換している
+			catch (IOException e) { 
 				System.out.println("エラー");
 			} 
 			catch (java.lang.NumberFormatException e1) {
